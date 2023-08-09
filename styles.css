@@ -1,0 +1,82 @@
+h1, h2, p{
+    text-align: center;/*fazendo a centralizacao dos elementos h1,h2 e p*/
+}
+h1, h2{
+    font-family: Impact, serif; /*temos duas fontes diferentes para estilizar h1 e h2 isso pq
+    quando uma das fonte nao esta disponivel a outra e chamada*/
+}
+
+hr{
+    background-color: brown;
+    border-color: brown;
+    height: 2px;
+}
+h1 {
+    font-size: 40px;
+    margin-top: 0;
+}
+img{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+body{
+    font-family: sans-serif;
+    background-image: url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg);
+}
+
+a{
+    color:black;
+}
+
+a:visited{
+    color: gray;
+}
+a:hover{
+    color:brown;
+}
+a:active{
+    color:white;
+}
+
+.established{
+    font-style: italic;
+}
+
+.menu{
+    /*width: 300px; /*A largura no css geralmente e dada em pixels px*/
+    background-color: burlywood;
+    width: 80%; /*faz com que a cor da div se estenda por 80% da pagina, 100% ocuparia toda a larguara da pagina */
+    margin-left: auto; /*centraliza automaticamente a div da pagina para esquerda  e o margin right faz a mesma coisa para a direita*/
+    margin-right: auto;
+    
+    padding-left: 20px;/* o padding faz com que todo a parte marrom do menu estique 20 px para a direcao desejada*/
+    padding-right: 20px;
+    padding-bottom: 20px;/*estica a pagina para baixo*/
+    padding-top: 20px;/*desce o titulo e os demais componenetes do menu para baixo*/
+    max-width: 500px;
+    
+}
+/* item p com essa classe criada posso estilizar todos os elementos da minha tag p que estao dentro da tag article, para
+isso acontecer foi criada uma class item dentro da tag article*/
+.item p{
+    display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+.flavor,.dessert{
+    text-align: left;
+    width: 75%;
+
+}
+
+.price{
+    text-align: right;
+    width: 25%;
+}
+
+.bottom-line{
+    margin-top: 25px;
+}
